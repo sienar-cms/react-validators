@@ -1,0 +1,38 @@
+{
+	"name": "@sienar/react-validators",
+	"version": "0.1.0",
+	"description": "A small library of form field validators that work with Sienar validation",
+	"type": "module",
+	"module": "dist/sienar-react-validators.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"/dist",
+		"/LICENSE.txt",
+		"/README.md"
+	],
+	"scripts": {
+		"build": "tsc -b && vite build"
+	},
+	"devDependencies": {
+		"@sienar/react-utils": "^0.1.0",
+		"@types/node": "22.5.5",
+		"typescript": "5.5.3",
+		"vite": "5.4.1",
+		"vite-plugin-dts": "4.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sienar-cms/react-validators.git"
+	},
+	"keywords": [
+		"CMS",
+		"Sienar",
+		"React"
+	],
+	"author": "Christian LeVesque <christian@levesque.dev> (https://levesque.dev)",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/sienar-cms/react-validators/issues"
+	},
+	"homepage": "https://sienar.io"
+}
