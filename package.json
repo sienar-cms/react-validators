@@ -1,6 +1,6 @@
 {
 	"name": "@sienar/react-validators",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A small library of form field validators that work with Sienar validation",
 	"type": "module",
 	"module": "dist/sienar-react-validators.js",
@@ -14,7 +14,7 @@
 		"build": "tsc -b && vite build"
 	},
 	"devDependencies": {
-		"@sienar/react-utils": "^0.1.0",
+		"@sienar/react-utils": "^0.1.2",
 		"@types/node": "22.5.5",
 		"typescript": "5.5.3",
 		"vite": "5.4.1",
