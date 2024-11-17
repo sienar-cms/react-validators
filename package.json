@@ -1,6 +1,6 @@
 {
 	"name": "@sienar/react-validators",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A small library of form field validators that work with Sienar validation",
 	"type": "module",
 	"module": "dist/sienar-react-validators.js",
